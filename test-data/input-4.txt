@@ -1,0 +1,11 @@
+# Create a ship with stocked stores that never fails
+GT4500,10,0,10,0
+TORPEDO,ALL  # should have fired from both stores
+
+# Create a ship with stocked primary store that never fails
+GT4500,10,0,0,0
+TORPEDO,ALL  # should have fired from primary
+
+# Create a ship with stocked secondary store that never fails
+GT4500,0,0,10,0
+TORPEDO,ALL  # should have fired from secondary
